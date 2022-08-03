@@ -1,12 +1,22 @@
 /*# sourceMappingURL=style.css.map */
+
 #box{
-    width: 600px;
-    height: 400px;
+    width: 530px;
+    height: 330px;
     border: 3px solid black;
-    padding: 50px;
-    margin-left: 400px;
-    margin-top: 100px;
-    border-radius: 15px;
+    padding: 25px;
+    margin-left: 385px;
+    margin-top: 135px;
+    border-radius: 15px;    
+}
+
+#box p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .pr{
@@ -15,6 +25,7 @@
 
 .otp{
     margin-top: 30px;
+    /* margin-left: 15px; */
 }
 input[type="text"] {
     width: 70px;
@@ -31,22 +42,27 @@ input[type="text"] {
 
 .footer{
     font-size: 11px;
-    background-color:#E5E1E6;
+    background-color:#ebe9eb;
+    width: 340px;
+    height: 45px;
+    margin-left: 90px;
+    margin-top: 41px;
+    border-radius: 5px;
+}
+.footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a5a3a3;
+    padding: 10px;
     text-align: center;
-    width: 320px;
-    height: 50px;
-    margin-left: 80px;
-    margin-top: 40px;
-    padding: 10px 0;
 }
 input:focus {
 	outline:none;
   	border: 2px solid rgb(138, 167, 221);
-    	box-shadow:0 8px 2px -2px rgb(240, 232, 232);
+    box-shadow:0 8px 2px -2px rgb(240, 232, 232);
 }
 
 input:first-of-type{
 	outline:none;
   	border: 2px solid rgb(138, 167, 221);
-   	box-shadow:0 8px 2px -2px rgb(240, 232, 232);
+    box-shadow:0 8px 2px -2px rgb(240, 232, 232);
 }
