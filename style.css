@@ -1,18 +1,21 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css?family=Muli:300,700&display=swap");
+
+ 
 
 #box{
     width: 530px;
-    height: 330px;
+    height: 380px;
     border: 3px solid black;
     padding: 25px;
-    margin-left: 385px;
+    /* /* margin-left: 385px; */
     margin-top: 135px;
-    border-radius: 15px;    
+    border-radius: 15px;  
+    margin: 0 auto;  
 }
 
 #box p{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 h2{
     text-align: center;
@@ -37,7 +40,7 @@ input[type="text"] {
 }
 
 .one-time{
-    margin: 3px;
+    margin: 2px;
 }
 
 .footer{
@@ -49,11 +52,15 @@ input[type="text"] {
     margin-top: 41px;
     border-radius: 5px;
 }
-.footer p{
+.para {
     font-family: Arial, Helvetica, sans-serif;
-    color: #a5a3a3;
+    color: #131212;
     padding: 10px;
     text-align: center;
+    background-color: #ede7ee;
+    margin: 20px;
+    font-size: 15px;
+    border-radius: 5px;
 }
 input:focus {
 	outline:none;
@@ -65,4 +72,10 @@ input:first-of-type{
 	outline:none;
   	border: 2px solid rgb(138, 167, 221);
     box-shadow:0 8px 2px -2px rgb(240, 232, 232);
+}
+.item{
+    padding-top: 120px;
+}
+.pr p{
+    font-family: Muli, sans-serif;
 }
