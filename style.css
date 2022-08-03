@@ -1,21 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Muli:300,700&display=swap");
 
- 
 
 #box{
-    width: 530px;
-    height: 380px;
+    width: 550px;
+    height: 350px;
     border: 3px solid black;
     padding: 25px;
-    /* /* margin-left: 385px; */
     margin-top: 135px;
+    margin-left: 400px;
     border-radius: 15px;  
-    margin: 0 auto;  
 }
 
 #box p{
     text-align: center;
-    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h2{
     text-align: center;
@@ -40,7 +38,7 @@ input[type="text"] {
 }
 
 .one-time{
-    margin: 2px;
+    margin: 3px;
 }
 
 .footer{
@@ -49,18 +47,14 @@ input[type="text"] {
     width: 340px;
     height: 45px;
     margin-left: 90px;
-    margin-top: 41px;
+    margin-top: 30px;
     border-radius: 5px;
 }
-.para {
+.footer p{
     font-family: Arial, Helvetica, sans-serif;
-    color: #131212;
-    padding: 10px;
+    color: #a5a3a3;
+    padding: 6px;
     text-align: center;
-    background-color: #ede7ee;
-    margin: 20px;
-    font-size: 15px;
-    border-radius: 5px;
 }
 input:focus {
 	outline:none;
@@ -72,10 +66,4 @@ input:first-of-type{
 	outline:none;
   	border: 2px solid rgb(138, 167, 221);
     box-shadow:0 8px 2px -2px rgb(240, 232, 232);
-}
-.item{
-    padding-top: 120px;
-}
-.pr p{
-    font-family: Muli, sans-serif;
 }
