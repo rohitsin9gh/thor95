@@ -42,9 +42,11 @@ input[type="text"] {
 input:focus {
 	outline:none;
   	border: 2px solid rgb(138, 167, 221);
+    box-shadow:0 8px 2px -2px rgb(240, 232, 232);
 }
 
 input:first-of-type{
 	outline:none;
   	border: 2px solid rgb(138, 167, 221);
+    box-shadow:0 8px 2px -2px rgb(240, 232, 232);
 }
